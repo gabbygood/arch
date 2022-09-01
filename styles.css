@@ -1,0 +1,35 @@
+.bg-dark-grey {
+    width: 100% auto;
+    text-align: center;
+    overflow: scroll;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.animation-1 {
+    animation: color-one 6s ease-in-out infinite;
+}
+
+@keyframes color-one {
+    0% {color: antiquewhite;}
+    15% {color: rgb(165, 73, 19);}
+    30% {color: rgb(48, 78, 31);}
+    50% {color: rgb(18, 21, 155);}
+    75% {color: rgb(210, 9, 236);}
+    100% {
+        color: cadetblue;
+    }
+}
+
+.bg-dark {
+    background-color: rgb(35, 43, 49);
+}
+
+.separate {
+    color: brown;
+}
